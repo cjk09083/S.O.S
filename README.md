@@ -2,7 +2,7 @@
 <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=PHP&logoColor=white"/></a> 
 
-Senior Observation System : 독거노인 안전 돌보미 (학부 졸업작품)
+<a href="https://youtu.be/l7W__i4ox20" >Senior Observation System : 독거노인 안전 돌보미 (학부 졸업작품) </a>
 
 ## 목적
 - 독거노인의 주거상황 및 건강상태 측정 기술 개발.
