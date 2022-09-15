@@ -1,7 +1,5 @@
 # S.O.S
 <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/></a> 
-<img src="https://img.shields.io/badge/Javascript-ffb13b?style=flat-square&logo=javascript&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=PHP&logoColor=white"/></a> 
 
 Senior Observation System : 독거노인 안전 돌보미 (학부 졸업작품)
@@ -13,7 +11,7 @@ Senior Observation System : 독거노인 안전 돌보미 (학부 졸업작품)
 
 ## 담당
 - 안드로이드 앱 
-- 웹서버 html, php, sql, javascript 
+- 웹서버 php, sql 
 - 클라우드에서 비상상황 발생 체크 알고리즘 및 알림
 - 앱 <-> 서버 <-> 하드웨어 통신 
 
