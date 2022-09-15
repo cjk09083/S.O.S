@@ -48,9 +48,9 @@ Senior Observation System : 독거노인 안전 돌보미 (학부 졸업작품)
 <div align="center">
 <img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/Screenshot_20180925-205157.png" width="30%"/>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/Screenshot_20180925-205144.jpg" width="30%"/>
+<img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/Screenshot_20180925-205144.png" width="30%"/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/Screenshot_20180925-230019.jpg" width="30%"/>
+<img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/Screenshot_20180925-230019.png" width="30%"/>
 </div></br>
 
 ### 3. 상담 예약 & 문자 전송
