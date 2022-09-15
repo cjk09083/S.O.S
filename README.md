@@ -45,6 +45,13 @@ Senior Observation System : 독거노인 안전 돌보미 (학부 졸업작품)
 ### 2. 비상 상황시 알람
 - 비상상황 감지 시 보호자의 어플리케이션으로 알람이 전송
 - 알람 종류는 각종 센서값 이상 혹은 독거노인의 움직임 패턴 이상 등 8가지 
+<div align="center">
+<img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/Screenshot_20180925-205157.png" width="30%"/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/Screenshot_20180925-205144.jpg" width="30%"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/Screenshot_20180925-230019.jpg" width="30%"/>
+</div></br>
 
 ### 3. 상담 예약 & 문자 전송
 - 보호자가 어플리케이션으로 날짜 선택 후 상담 예약을 잡거나, 문자를 입력하면 독거노인 실내에 설치된 디바이스가 음성으로 안내
