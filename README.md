@@ -31,6 +31,7 @@ Senior Observation System : 독거노인 안전 돌보미 (학부 졸업작품)
 ## 기능
 ### 1. 센서 정보 서버업로드 및 모니터링
  - 실내에서 측정한 각종 센서(전력, 지진, 방문자, 문열림, 화재, 비상벨, 모션, 온습도) 정보를 서버와 클라우드에 업로드한다.
+ - 전용 어플리케이션(Android)에서 이를 모니터링 한다.
 <div align="center">
 <img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/sensor.png" width="40%"/>
 </div></br>
