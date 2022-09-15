@@ -35,7 +35,7 @@ Senior Observation System : 독거노인 안전 돌보미 (학부 졸업작품)
 <div align="center">
 <img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/Screenshot_20180926-122917.png" width="50%"/>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/motion.png" width="40%"/>
+<img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/motion.jpg" width="40%"/>
 </div>
 
 ### 2. 비상 상황시 알람
