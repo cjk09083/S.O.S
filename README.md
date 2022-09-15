@@ -33,14 +33,14 @@ Senior Observation System : 독거노인 안전 돌보미 (학부 졸업작품)
  - 실내에서 측정한 각종 센서(전력, 지진, 방문자, 문열림, 화재, 비상벨, 모션, 온습도) 정보를 서버와 클라우드에 업로드한다.
 <div align="center">
 <img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/sensor.png" width="40%"/>
-</div>
+</div></br>
 
  - 측정한 데이터중 온습도, 모션센서 데이터는 차트로 확인할 수 있다
 <div align="center">
 <img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/Screenshot_20180926-122917.png" width="55%"/>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/motion.jpg" width="35%"/>
-</div>
+</div></br>
 
 ### 2. 비상 상황시 알람
 
