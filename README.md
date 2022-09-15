@@ -55,7 +55,11 @@ Senior Observation System : 독거노인 안전 돌보미 (학부 졸업작품)
 
 ### 3. 상담 예약 & 문자 전송
 - 보호자가 어플리케이션으로 날짜 선택 후 상담 예약을 잡거나, 문자를 입력하면 독거노인 실내에 설치된 디바이스가 음성으로 안내
-
+<div align="center">
+<img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/Screenshot_20180926-192714.png" width="30%"/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/Screenshot_20180926-192801.png" width="30%"/>
+</div></br>
 ### 4. 외부 기기 제어
 - 삼성 SmartThings 와 연동하여 앱에서 제어시, 실내에 있는 가스밸브, 콘센터를 ON/OFF 
 
