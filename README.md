@@ -33,7 +33,7 @@ Senior Observation System : 독거노인 안전 돌보미 (학부 졸업작품)
  - 실내에서 측정한 온습도(좌측), 모션센서(우측) 정보를 서버에 업로드하고 이를 차트화해서 요일별로 나타낸다
 <div align="center">
 <img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/Screenshot_20180926-122917.png" width="50%" style="margin-right:100px;"/>
- &nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/Screenshot_20180926-122950.png" width="30%" style="float:right;"/>
 </div>
 
