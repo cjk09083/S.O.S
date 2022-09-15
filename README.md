@@ -5,6 +5,9 @@
 
 <a href="https://youtu.be/l7W__i4ox20" >Senior Observation System : 독거노인 안전 돌보미 (학부 졸업작품) </a>
 
+<img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/%EC%A1%B0%EA%B0%90%EB%8F%842.jpg" width="100%"/></a> 
+
+
 ## 목적
 - 독거노인의 주거상황 및 건강상태 측정 기술 개발.
 - 측정된 정보를 실시간으로 클라우드에 업로드하고 비상상황 발생 유무를 어플리케이션을 통해 관리자가 모니터링 할 수 있는 기술 개발.
