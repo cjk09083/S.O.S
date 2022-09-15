@@ -1,13 +1,12 @@
 # S.O.S
-
-
-<img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=PHP&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
+<div>
+<img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=Android&logoColor=white"/>
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=PHP&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"/>
 <a href="https://youtu.be/l7W__i4ox20" target="_blank">
-<img src="https://img.shields.io/badge/소개영상-FF0000?style=flat-square&logo=YouTube&logoColor=white"/>
+<img src="https://img.shields.io/badge/소개영상-FF0000?style=for-the-badge&logo=YouTube&logoColor=white"/>
 </a>
-
+</div>
 Senior Observation System : 독거노인 안전 돌보미 (학부 졸업작품) 
 
 <div align="center">
