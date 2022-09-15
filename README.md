@@ -1,7 +1,5 @@
 # S.O.S
-<a href="https://youtu.be/l7W__i4ox20" target="_blank">
-<img src=https://img.shields.io/badge/소개영상-FF0000.svg?&style=for-the-badge&logo=YouTube&logoColor=white alt=github style="margin-bottom: 5px;" />
-</a>
+
 
 <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=PHP&logoColor=white"/></a>
@@ -12,7 +10,9 @@ Senior Observation System : 독거노인 안전 돌보미 (학부 졸업작품)
 
 
 <img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/%EC%A1%B0%EA%B0%90%EB%8F%842.jpg" width="70%"/></a> 
-
+<a href="https://youtu.be/l7W__i4ox20" target="_blank">
+<img src=https://img.shields.io/badge/소개영상-FF0000.svg?&style=for-the-badge&logo=YouTube&logoColor=white alt=github style="margin-bottom: 5px;" />
+</a>
 
 ## 목적
 - 독거노인의 주거상황 및 건강상태 측정 기술 개발.
