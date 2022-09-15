@@ -31,8 +31,8 @@ Senior Observation System : 독거노인 안전 돌보미 (학부 졸업작품)
 ## 기능
 ### 1. 온습도, 모션 정보 서버업로드 및 차트화
  - 실내에서 측정한 온습도(좌측), 모션센서(우측) 정보를 서버에 업로드하고 이를 차트화해서 요일별로 나타낸다
-<img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/Screenshot_20180926-122917.png" width="50%" style="margin-right:100px;"/></a>
-<img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/Screenshot_20180926-122950.png" width="30%"/></a>
+<img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/Screenshot_20180926-122917.png" width="50%" style="margin-right:100px;"/>
+<img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/Screenshot_20180926-122950.png" width="30%"/>
 
 ### 2. 비상 상황시 알람
 
