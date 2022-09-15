@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/theme_color"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <View
+        android:background="#66bdbdbd"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <!-- 시작/종료 선택 버튼 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/start_date_btn"
+            android:text="날짜"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:padding="16dp"
+            android:gravity="center"
+            android:background="@color/theme_color"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"/>
+
+        <Button
+            android:id="@+id/end_date_btn"
+            android:text="시간"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:padding="16dp"
+            android:gravity="center"
+            android:baselineAligned="false"
+            android:background="@color/theme_color2"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp" />
+
+    </LinearLayout>
+    <!--// 시작/종료 선택 버튼 -->
+
+    <!-- Notice -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="3dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="300dp"
+            android:layout_height="420dp"
+            android:background="#fff"
+            android:datePickerMode="calendar"
+            android:headerBackground="@color/theme_color"
+            android:visibility="visible" />
+
+        <TimePicker
+            android:id="@+id/TimePicker"
+            android:layout_width="300dp"
+            android:layout_height="340dp"
+            android:background="#fff"
+            android:headerBackground="#252e69"
+            android:timePickerMode="spinner"
+            android:visibility="gone" />
+
+
+
+            <TextView
+                android:id="@+id/textview2"
+                android:text="예약내용 : "
+                android:textSize="15sp"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:visibility="gone"/>
+            <EditText
+                android:text=""
+                android:id="@+id/textdata"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/back"
+                android:layout_marginBottom="5dp"
+                android:inputType="text"
+                android:visibility="gone"/>
+
+    </LinearLayout>
+    <!-- Notice -->
+
+    <View
+        android:background="#66bdbdbd"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+
+    <!-- 닫기 버튼 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="취소"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:padding="16dp"
+            android:gravity="center"
+            android:background="@color/theme_color"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:onClick="mOnClose"/>
+
+        <Button
+            android:text="확인"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:baselineAligned="false"
+            android:padding="16dp"
+            android:gravity="center"
+            android:background="@color/theme_color"
+            android:layout_width="wrap_content"
+
+            android:layout_weight="1"
+            android:layout_height="53dp"
+            android:onClick="mOnMove"/>
+    </LinearLayout>
+    <!--// 닫기 버튼 -->
+</LinearLayout>

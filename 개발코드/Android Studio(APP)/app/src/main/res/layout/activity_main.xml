@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="S.O.S"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:background="@color/theme_color"
+            android:layout_width="match_parent"
+            android:layout_height="53dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/add_item_btn"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="10sp"
+                android:text="추가"/>
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/del_cancel_btn"
+                android:layout_width="match_parent"
+                android:textSize="10sp"
+                android:layout_height="50dp"
+                android:text="취소"
+                android:visibility="gone"/>
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/del_item_btn"
+                android:layout_width="match_parent"
+                android:textSize="10sp"
+                android:layout_height="50dp"
+                android:text="삭제"/>
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="10sp"
+                android:text="로그인" />
+
+
+            <Button
+                android:id="@+id/phpjoin_btn"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="10sp"
+                android:text="다운로드"
+                android:visibility="gone"/>
+
+
+            <Button
+                android:id="@+id/phpPost_btn"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:textSize="10sp"
+                android:layout_height="50dp"
+                android:text="업로드"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/back"
+            android:layout_height="40dp">
+            <TextView
+                android:id="@+id/userId"
+                android:gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+
+                android:textSize="25sp"
+                android:text="ID"
+                android:textColor="#000"/>
+            <TextView
+                android:id="@+id/userName"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:text="이름"
+                android:textColor="#000"/>
+
+            <TextView
+                android:textColor="#000"
+                android:text="장치"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_width="40dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:textColor="#000"
+                android:text="팔찌"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_width="40dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:textColor="#000"
+                android:text="웹캠"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_width="40dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/deviceid"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="디바이스ID"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/braceid"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="팔찌ID"
+                android:textColor="#000"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/swipeRefreshLo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </android.support.v4.widget.SwipeRefreshLayout>
+        </RelativeLayout>
+
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</layout>

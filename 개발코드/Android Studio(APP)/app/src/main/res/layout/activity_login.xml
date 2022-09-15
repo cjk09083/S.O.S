@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    tools:context="cloud.artik.example.hellocloud.LoginActivity" >
+
+
+    <!-- //end 타이틀바 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <!-- 타이틀바 -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="S.O.S"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:background="@color/theme_color"
+                android:layout_width="match_parent"
+                android:layout_height="53dp" />
+        </LinearLayout>
+        <!-- Notice -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+            android:layout_weight="3"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/back"
+                    android:gravity="center"
+                    android:text="ID"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+                <TextView
+                    android:text="PW"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:background="@drawable/back"
+                    android:gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp" />
+            <TextView
+                android:text="코드"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:background="@drawable/back"
+                android:gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+
+                <EditText
+                    android:id="@+id/txtText1"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:alpha="0.87"
+                    android:gravity="center"
+                    android:background="@drawable/back"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:layout_height="30dp" />
+                <EditText
+                    android:id="@+id/txtText2"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:background="@drawable/back"
+                    android:alpha="0.87"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:layout_height="30dp" />
+                <EditText
+                    android:id="@+id/txtText3"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:background="@drawable/back"
+                    android:singleLine="true"
+                    android:alpha="0.87"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="회원가입"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    android:baselineAligned="false"
+                    android:background="@drawable/back"
+                    android:layout_width="100dp"
+                    android:layout_height="53dp"
+                    android:onClick="mOnMiddle" />
+                <Button
+                    android:text="로그인"
+                    android:background="@drawable/back"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    android:layout_width="80dp"
+                    android:layout_height="53dp"
+                    android:onClick="mOnMove"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!--// 닫기 버튼 -->
+    </RelativeLayout>
+</LinearLayout>

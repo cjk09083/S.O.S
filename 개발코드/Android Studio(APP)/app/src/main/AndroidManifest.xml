@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cloud.artik.example.hellocloud">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.DIAL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS"/>
+
+
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:icon="@mipmap/sos_ic_launcher" >
+
+        <!-- 알람 Service -->
+        <service
+            android:name=".Alarmservice"
+            android:enabled="true"
+            android:exported="true" />
+
+
+        <!-- 부팅/재시작 Receiver -->
+        <receiver
+            android:name=".RestartService"
+            android:enabled="true"
+            android:exported="false"
+            android:label="RestartService"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="ACTION.RESTART.PersistentService" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 로딩화면 Activity -->
+        <activity android:name=".LoadingActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <!-- 로그인 Activity -->
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/play_with_messages">
+            <intent-filter>
+                <action android:name="cloud.artik.example.hellocloud.ARTIKCLOUD_AUTHORIZATION_RESPONSE" />
+            </intent-filter>
+        </activity>
+
+        <!-- 메인 Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/play_with_messages">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 메세지 Activity -->
+        <activity
+            android:name=".MessageActivity"
+            android:label="@string/play_with_messages">
+        </activity>
+
+
+        <!-- PHP읽기 Activity -->
+
+        <activity
+            android:name=".php_join"
+            android:label="@string/play_with_messages">
+        </activity>
+
+
+        <!-- 모션연결 Activity -->
+        <activity android:name=".motion_web_week"/>
+        <activity android:name=".motion_web_day"/>
+        <activity android:name=".motionPopup"
+            android:theme="@android:style/Theme.Material.Light.Dialog"  />
+        <activity android:name=".motionsitPopup"
+            android:theme="@android:style/Theme.Material.Light.Dialog"  />
+        <!-- 온습도차트 Activity -->
+        <activity android:name=".temphumid_web_total"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".temphumidPopup"
+            android:theme="@android:style/Theme.Material.Light.Dialog"/>
+        <!-- 상담예약 팝업 Activity -->
+        <activity android:name=".reservationPopup"
+            android:theme="@android:style/Theme.Material.Light.Dialog"  />
+        <!-- 스마트밴드 팝업 Activity -->
+        <activity android:name=".smartbandPopup"
+            android:theme="@android:style/Theme.Material.Light.Dialog"  />
+        <!-- 알람 팝업 Activity -->
+        <activity
+            android:name=".PopupActivity"
+            android:theme="@android:style/Theme.Dialog" />
+
+        <!-- Ncloud 업로드 팝업 Activity -->
+        <activity
+            android:name=".ncloud_text"
+            android:theme="@android:style/Theme.Dialog" />
+
+        <!-- 업로드 팝업 Activity -->
+        <activity
+            android:name=".UploadPopup"
+            android:theme="@android:style/Theme.Dialog" />
+
+        <!-- 다운로드 팝업 Activity -->
+        <activity
+            android:name=".DownloadPopup"
+            android:theme="@android:style/Theme.Dialog" />
+
+        <!-- 회원가입 팝업 Activity -->
+        <activity
+            android:name=".signupPopup"
+            android:theme="@android:style/Theme.Dialog" />
+
+
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  Login activity -->
+    <string name="app_name">S.O.S</string>
+    <string name="hello_world">Please login to ARTIK Cloud</string>
+    <string name="click">login</string>
+    
+    <!-- Message activity -->
+    <string name="play_with_messages">S.O.S app</string>
+    <string name="welcome_txt">Welcome </string>
+    <string name="send_btn_txt">send a message</string>
+    <string name="sendmsg_response">Response </string>
+    <string name="getlatest_btn_txt">Get the latest message</string>
+    <string name="getlatest_response_sdid">sdid </string>
+    <string name="getlatest_response_mid">mid </string>
+    <string name="getlatest_response_mdata">data </string>
+    
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <TextView
+        android:id="@+id/userId"
+        android:gravity="center"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+
+        android:textSize="25sp"
+        android:text="ID"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/userName"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_width="115dp"
+        android:layout_height="match_parent"
+        android:text="이름"
+        android:textColor="#000"/>
+
+    <ImageView
+        android:id="@+id/deviceid_state"
+        android:src="@drawable/lampoff"
+        android:padding="5dp"
+        android:layout_width="40dp"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/braceid_state"
+        android:src="@drawable/lampoff"
+        android:padding="5dp"
+        android:layout_width="40dp"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/webcam_state"
+        android:src="@drawable/lampoff"
+        android:padding="5dp"
+        android:layout_width="40dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/deviceid"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="디바이스ID"
+        android:layout_weight="1"
+        android:textColor="#000"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/braceid"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="팔찌ID"
+        android:textColor="#000"
+        android:visibility="gone"/>
+
+</LinearLayout>
