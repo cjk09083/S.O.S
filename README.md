@@ -7,9 +7,10 @@
 
 
 Senior Observation System : 독거노인 안전 돌보미 (학부 졸업작품) 
-<a href="[https://github.com/cjk09083](https://youtu.be/l7W__i4ox20)" target="_blank">
+<a href="https://youtu.be/l7W__i4ox20" target="_blank">
  <img src=https://img.shields.io/badge/소개영상-FF0000.svg?&style=for-the-badge&logo=YouTube&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
+
 
 <img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/%EC%A1%B0%EA%B0%90%EB%8F%842.jpg" width="70%"/></a> 
 
