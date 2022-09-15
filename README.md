@@ -9,7 +9,7 @@
 Senior Observation System : 독거노인 안전 돌보미 (학부 졸업작품) 
 
 
-<img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/%EC%A1%B0%EA%B0%90%EB%8F%842.jpg" width="80%"/></a>
+<img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/%EC%A1%B0%EA%B0%90%EB%8F%842.jpg" width="75%"/></a>
 <img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/APP%20%EC%A0%84%EC%B2%B4%20%EC%8A%A4%EC%83%B7.jpg" width="15%"/></a>
 
 <a href="https://youtu.be/l7W__i4ox20" target="_blank">
