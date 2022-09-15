@@ -1,4 +1,5 @@
-# S.O.S <a href="https://youtu.be/l7W__i4ox20" target="_blank">
+# S.O.S
+<a href="https://youtu.be/l7W__i4ox20" target="_blank">
 <img src=https://img.shields.io/badge/소개영상-FF0000.svg?&style=for-the-badge&logo=YouTube&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
 
